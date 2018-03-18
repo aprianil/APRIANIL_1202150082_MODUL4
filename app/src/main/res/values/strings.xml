@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">APRIANIL_1202150082_MODUL4</string>
+
+
+        <string name="link_gambar">http://www.mmdtech.com/wp-content/uploads/android.png</string>
+    <string name="cari_gambar">Cari Gambar</string>
+
+    <!-- buat array -->
+
+        <string-array name="names">
+
+            <item>Aprianil</item>
+
+            <item>Aryo</item>
+
+            <item>Adi</item>
+
+            <item>Taufiq</item>
+
+            <item>Shiddiq</item>
+
+            <item>Husein</item>
+
+            <item>Ipat</item>
+
+            <item>Ira</item>
+
+            <item>Wanda</item>
+
+            <item>Fahmi</item>
+
+            <item>Arya</item>
+
+        </string-array>
+    </resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context="com.dikampus.aprianil_1202150082_modul4.CariGambar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginBottom="5dp"
+
+            android:text="Cari Gambar"
+
+            android:textSize="24sp"/>
+
+        <EditText
+
+            android:id="@+id/et1"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="15dp"
+
+            android:text="https://maniakucing.com/wp-content/uploads/2016/09/Gambar-kucing-persia-umur-3-bulan-terpopuler-di-Indonesia.jpg"
+
+            android:hint="Masukan url gambar" />
+        <Button
+
+            android:id="@+id/klik_cari_btn"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginBottom="15dp"
+
+            android:text="klik untuk mencari gambar"
+
+            android:textAllCaps="false"/>
+
+        <ImageView
+
+            android:id="@+id/gambar"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"/>
+
+        <ProgressBar
+
+            android:id="@+id/pgBar"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:visibility="gone"/>
+    </LinearLayout>
+</ScrollView>
